@@ -3,9 +3,9 @@ import numpy as np
 import scipy.signal as ss
 from scipy.io import loadmat
 import wfdb
-from .denoise import wt_denoise, median_denoise, normalize
-from .detection import detect_qrs, detect_beats, qrs_peak_detect
-from .ecg_plot import plot_12, save_as_png
+from ..denoise import wt_denoise, median_denoise, normalize
+from ..detection import detect_qrs, detect_beats, qrs_peak_detect
+from ..ecg_plot import plot_12, save_as_png
 
 
 class ECGRecord(object):
